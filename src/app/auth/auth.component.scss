@@ -1,0 +1,35 @@
+.cover{
+  background-image: url("../../../public/film-h.png");
+  background-size: cover;
+  height: calc(100vh - 57px) ;
+  overflow: hidden;
+}
+.form-container{
+  background-color: #212529;
+  height: calc(80.5vh - 60px);
+  color: white;
+
+}
+.ticket-in{
+  background-color: #212529;
+  height: 60px;
+  width: 20%;
+  mask: radial-gradient(circle 140px at 0% 0%, transparent 40%, black 41% );
+}
+.ticket-final{
+  background-color: #212529;
+  height: 60px;
+  width: 20%;
+  mask: radial-gradient(circle 140px at 100% 0%, transparent 40%, black 41% );
+}
+.ticket{
+  background-color: #212529;
+  height: 60px;
+  width: 12%;
+  mask: radial-gradient(circle 40px at 50% 0%, transparent 40%, black 41% );
+}
+.t{
+  background-color: #212529;
+  height: 60px;
+  width: 8%;
+}
