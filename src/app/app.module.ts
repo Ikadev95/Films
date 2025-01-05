@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './main-components/navbar/navbar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { tokenInterceptor } from './auth/token.interceptor';
+import { provideHttpClient, withInterceptors } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AppRoutingModule,
     NgbModule
   ],
-  providers: [],
+  providers: [
+    provideHttpClient( withInterceptors([tokenInterceptor])),
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

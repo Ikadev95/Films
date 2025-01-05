@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { AuthsrvService } from '../authsrv.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-register',
@@ -6,5 +9,32 @@ import { Component } from '@angular/core';
   styleUrl: './register.component.scss'
 })
 export class RegisterComponent {
+
+  form: FormGroup
+
+  constructor(private authSrv: AuthsrvService, private router: Router){
+    this.form = new FormGroup({
+        name: new FormControl('', [Validators.required]),
+        surname: new FormControl('',[Validators.required]),
+        mail: new FormControl('', [Validators.required, Validators.email]),
+        password: new FormControl('', [Validators.required])
+    })
+  }
+
+  register(){
+    if(this.form.valid){
+      this.authSrv.register(this.form.value).subscribe(
+        {
+          next: (data) => {
+            console.log('registrazione effettuata con successo')
+            this.router.navigate(['home'])
+          },
+          error:(data) => {
+            console.log('errore registrazione')
+          }
+        }
+      )
+    }
+  }
 
 }

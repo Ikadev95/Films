@@ -21,5 +21,4 @@ export const tokenInterceptor: HttpInterceptorFn = (req, next) => {
     // mando quindi avanti la richiesta nuova con il token applicato
     return next(newRequest);
 
-
 };
