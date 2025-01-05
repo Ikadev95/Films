@@ -1,103 +1,149 @@
 {
-  "users": [],
+  "users": [
 
+  ],
   "films": [
     {
-        "id": 1,
-        "titolo": "Harry Potter e la Pietra Filosofale",
-        "anno": "2001",
-        "soundtrack": "John Williams",
-        "descrizione": "Il primo capitolo delle avventure del giovane mago Harry Potter.",
-        "attori": ["Daniel Radcliffe", "Emma Watson", "Rupert Grint"]
+      "id": 1,
+      "titolo": "Harry Potter e la Pietra Filosofale",
+      "anno": "2001",
+      "soundtrack": "John Williams",
+      "descrizione": "Il primo capitolo delle avventure del giovane mago Harry Potter.",
+      "attori": [
+        "Daniel Radcliffe",
+        "Emma Watson",
+        "Rupert Grint"
+      ]
     },
     {
-        "id": 2,
-        "titolo": "Il Signore degli Anelli: La Compagnia dell'Anello",
-        "anno": "2001",
-        "soundtrack": "Howard Shore",
-        "descrizione": "Frodo e i suoi amici iniziano il loro viaggio per distruggere l'Unico Anello.",
-        "attori": ["Elijah Wood", "Ian McKellen", "Viggo Mortensen"]
+      "id": 2,
+      "titolo": "Il Signore degli Anelli: La Compagnia dell'Anello",
+      "anno": "2001",
+      "soundtrack": "Howard Shore",
+      "descrizione": "Frodo e i suoi amici iniziano il loro viaggio per distruggere l'Unico Anello.",
+      "attori": [
+        "Elijah Wood",
+        "Ian McKellen",
+        "Viggo Mortensen"
+      ]
     },
     {
-        "id": 3,
-        "titolo": "Il Gladiatore",
-        "anno": "2000",
-        "soundtrack": "Hans Zimmer",
-        "descrizione": "Un generale romano diventa un gladiatore e cerca vendetta contro l'imperatore che ha tradito la sua famiglia.",
-        "attori": ["Russell Crowe", "Joaquin Phoenix", "Connie Nielsen"]
+      "id": 3,
+      "titolo": "Il Gladiatore",
+      "anno": "2000",
+      "soundtrack": "Hans Zimmer",
+      "descrizione": "Un generale romano diventa un gladiatore e cerca vendetta contro l'imperatore che ha tradito la sua famiglia.",
+      "attori": [
+        "Russell Crowe",
+        "Joaquin Phoenix",
+        "Connie Nielsen"
+      ]
     },
     {
-        "id": 4,
-        "titolo": "Inception",
-        "anno": "2010",
-        "soundtrack": "Hans Zimmer",
-        "descrizione": "Un ladro specializzato in estrazione di segreti sogna una nuova realtà.",
-        "attori": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"]
+      "id": 4,
+      "titolo": "Inception",
+      "anno": "2010",
+      "soundtrack": "Hans Zimmer",
+      "descrizione": "Un ladro specializzato in estrazione di segreti sogna una nuova realtà.",
+      "attori": [
+        "Leonardo DiCaprio",
+        "Joseph Gordon-Levitt",
+        "Ellen Page"
+      ]
     },
     {
-        "id": 5,
-        "titolo": "Interstellar",
-        "anno": "2014",
-        "soundtrack": "Hans Zimmer",
-        "descrizione": "Un gruppo di esploratori viaggia attraverso un wormhole nello spazio.",
-        "attori": ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"]
+      "id": 5,
+      "titolo": "Interstellar",
+      "anno": "2014",
+      "soundtrack": "Hans Zimmer",
+      "descrizione": "Un gruppo di esploratori viaggia attraverso un wormhole nello spazio.",
+      "attori": [
+        "Matthew McConaughey",
+        "Anne Hathaway",
+        "Jessica Chastain"
+      ]
     },
     {
-        "id": 6,
-        "titolo": "Forrest Gump",
-        "anno": "1994",
-        "soundtrack": "Alan Silvestri",
-        "descrizione": "La vita straordinaria di Forrest Gump, un uomo semplice ma con una storia unica.",
-        "attori": ["Tom Hanks", "Robin Wright"]
+      "id": 6,
+      "titolo": "Forrest Gump",
+      "anno": "1994",
+      "soundtrack": "Alan Silvestri",
+      "descrizione": "La vita straordinaria di Forrest Gump, un uomo semplice ma con una storia unica.",
+      "attori": [
+        "Tom Hanks",
+        "Robin Wright"
+      ]
     },
     {
-        "id": 7,
-        "titolo": "Pulp Fiction",
-        "anno": "1994",
-        "soundtrack": "Various Artists",
-        "descrizione": "Una serie di storie interconnesse in un film cult.",
-        "attori": ["John Travolta", "Uma Thurman", "Samuel L. Jackson"]
+      "id": 7,
+      "titolo": "Pulp Fiction",
+      "anno": "1994",
+      "soundtrack": "Various Artists",
+      "descrizione": "Una serie di storie interconnesse in un film cult.",
+      "attori": [
+        "John Travolta",
+        "Uma Thurman",
+        "Samuel L. Jackson"
+      ]
     },
     {
-        "id": 8,
-        "titolo": "Avatar",
-        "anno": "2009",
-        "soundtrack": "James Horner",
-        "descrizione": "Un soldato umano vive tra il popolo Na'vi su Pandora.",
-        "attori": ["Sam Worthington", "Zoe Saldana", "Sigourney Weaver"]
+      "id": 8,
+      "titolo": "Avatar",
+      "anno": "2009",
+      "soundtrack": "James Horner",
+      "descrizione": "Un soldato umano vive tra il popolo Na'vi su Pandora.",
+      "attori": [
+        "Sam Worthington",
+        "Zoe Saldana",
+        "Sigourney Weaver"
+      ]
     },
     {
-        "id": 9,
-        "titolo": "Star Wars: Episodio IV - Una nuova speranza",
-        "anno": "1977",
-        "soundtrack": "John Williams",
-        "descrizione": "La prima avventura di Luke Skywalker nella lotta contro l'Impero Galattico.",
-        "attori": ["Mark Hamill", "Harrison Ford", "Carrie Fisher"]
+      "id": 9,
+      "titolo": "Star Wars: Episodio IV - Una nuova speranza",
+      "anno": "1977",
+      "soundtrack": "John Williams",
+      "descrizione": "La prima avventura di Luke Skywalker nella lotta contro l'Impero Galattico.",
+      "attori": [
+        "Mark Hamill",
+        "Harrison Ford",
+        "Carrie Fisher"
+      ]
     },
     {
-        "id": 10,
-        "titolo": "The Matrix",
-        "anno": "1999",
-        "soundtrack": "Don Davis",
-        "descrizione": "Un hacker scopre la vera natura della sua realtà.",
-        "attori": ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss"]
+      "id": 10,
+      "titolo": "The Matrix",
+      "anno": "1999",
+      "soundtrack": "Don Davis",
+      "descrizione": "Un hacker scopre la vera natura della sua realtà.",
+      "attori": [
+        "Keanu Reeves",
+        "Laurence Fishburne",
+        "Carrie-Anne Moss"
+      ]
     },
     {
-        "id": 11,
-        "titolo": "Fight Club",
-        "anno": "1999",
-        "soundtrack": "The Dust Brothers",
-        "descrizione": "Un uomo insoddisfatto crea un club di combattimento clandestino.",
-        "attori": ["Brad Pitt", "Edward Norton", "Helena Bonham Carter"]
+      "id": 11,
+      "titolo": "Fight Club",
+      "anno": "1999",
+      "soundtrack": "The Dust Brothers",
+      "descrizione": "Un uomo insoddisfatto crea un club di combattimento clandestino.",
+      "attori": [
+        "Brad Pitt",
+        "Edward Norton",
+        "Helena Bonham Carter"
+      ]
     },
     {
-        "id": 12,
-        "titolo": "La La Land",
-        "anno": "2016",
-        "soundtrack": "Justin Hurwitz",
-        "descrizione": "Una storia d'amore tra un musicista e un'aspirante attrice a Los Angeles.",
-        "attori": ["Ryan Gosling", "Emma Stone"]
+      "id": 12,
+      "titolo": "La La Land",
+      "anno": "2016",
+      "soundtrack": "Justin Hurwitz",
+      "descrizione": "Una storia d'amore tra un musicista e un'aspirante attrice a Los Angeles.",
+      "attori": [
+        "Ryan Gosling",
+        "Emma Stone"
+      ]
     }
-]
-
+  ]
 }

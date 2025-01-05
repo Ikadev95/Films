@@ -23,7 +23,7 @@
 
           <form [formGroup]="form" (ngSubmit)="login()">
             <div class="form-group">
-              <input type="text" name="e-mail" placeholder="mail" class="form-control" formControlName="mail">
+              <input type="text" name="email" placeholder="mail" class="form-control" formControlName="email">
               <input type="password" name="password" placeholder="password" class="form-control mt-3" formControlName="password">
             </div>
             <button type="submit" class="btn btn-primary mt-3" [disabled]="form.invalid">Login</button>

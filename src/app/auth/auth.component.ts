@@ -15,7 +15,7 @@ export class AuthComponent {
 
   constructor(private authSvc: AuthsrvService,private router: Router){
     this.form = new FormGroup({
-      mail: new FormControl('', [Validators.required, Validators.email]),
+      email: new FormControl('', [Validators.required, Validators.email]),
       password: new FormControl('', [Validators.required])
     })
   }
@@ -25,6 +25,7 @@ export class AuthComponent {
       //prendo i dati dal form e li inserisco in una varabile
       const formData: iLoginRequest = this.form.value;
       this.authSvc.login(formData).subscribe(
+
         {
           next: (data) => {
             console.log('login effettuato con successo')

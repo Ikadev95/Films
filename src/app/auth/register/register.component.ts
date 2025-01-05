@@ -16,13 +16,14 @@ export class RegisterComponent {
     this.form = new FormGroup({
         name: new FormControl('', [Validators.required]),
         surname: new FormControl('',[Validators.required]),
-        mail: new FormControl('', [Validators.required, Validators.email]),
+        email: new FormControl('', [Validators.required, Validators.email]),
         password: new FormControl('', [Validators.required])
     })
   }
 
   register(){
     if(this.form.valid){
+      console.log(this.form.value);
       this.authSrv.register(this.form.value).subscribe(
         {
           next: (data) => {

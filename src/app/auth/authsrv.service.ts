@@ -24,12 +24,13 @@ export class AuthsrvService {
   autoLogoutTimer:any
 
   register(user:Partial<iUser>){
+    console.log(user)
     return this.http.post<iAccess>(this.registerUrl,user)
   }
 
   login(userDates: iLoginRequest){
     // qui uso una post perchè proteggere i dati sensibili e creare un token lato server
-    return this.http.post<iAccess>(this.registerUrl,userDates).pipe(
+    return this.http.post<iAccess>(this.loginUrl,userDates).pipe(
       tap( dati => {
           this.userAuthSubject$.next(dati)
 
